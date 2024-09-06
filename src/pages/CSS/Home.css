@@ -1,0 +1,58 @@
+/* Home.css */
+#home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    padding: 16px;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    height: 100%; 
+    margin: auto;
+  }
+  
+  .home-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .home-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 24px;
+  }
+  
+  .home-logo {
+    width: 60%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 24px;
+  }
+  
+  .home-button {
+    background-color: #007aff;
+    color: #fff;
+    --border-radius: 4px;
+    --padding-start: 16px;
+    --padding-end: 16px;
+    --padding-top: 8px;
+    --padding-bottom: 8px;
+  }
+  

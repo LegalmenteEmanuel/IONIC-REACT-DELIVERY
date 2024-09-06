@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  ionic-app:
+    build: .
+    ports:
+      - '8100:8100'
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm run dev -- --port 8100 --host
+    environment:
+      - NODE_ENV=development

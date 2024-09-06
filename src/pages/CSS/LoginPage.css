@@ -1,0 +1,30 @@
+.login-page-grid {
+  height: 100vh; 
+}
+
+.login-page-row {
+  height: 100%; 
+}
+
+.login-page-image-col {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-page-image {
+  width: 75%;
+  height: auto;
+}
+
+
+@media (min-width: 768px) {
+  .login-page-image-col {
+    display: flex; 
+  }
+
+
+  .login-page-row > ion-col:nth-child(2) {
+    border-left: 1px solid #dcdcdc; 
+  }
+}

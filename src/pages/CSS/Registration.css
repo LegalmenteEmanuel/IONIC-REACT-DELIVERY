@@ -1,0 +1,28 @@
+.sign-page-grid {
+  height: 100vh;
+}
+
+.sign-page-row {
+  height: 100%;
+}
+
+.sign-page-image-col {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-page-image {
+  width: 75%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .sign-page-image-col {
+    display: flex;
+  }
+
+  .sign-page-row > ion-col:nth-child(2) {
+    border-left: 1px solid #dcdcdc;
+  }
+}

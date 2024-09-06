@@ -1,0 +1,36 @@
+.login-grid {
+    height: 100%; 
+  }
+  
+  .login-row {
+    height: 100%; 
+  }
+  
+  .ion-align-items-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ion-input-custom {
+    margin-top: 16px; 
+
+  }
+  
+  .custom-google-icon {
+    color: #db4437;
+  }
+  
+  .custom-facebook-icon {
+    color: #3b5998;
+  }
+  
+  .custom-apple-icon {
+    color: #000000;
+  }
+  
+  .error-message {
+    color: red; 
+    font-size: 0.8em; 
+    margin-top: 4px; 
+  }
+  
